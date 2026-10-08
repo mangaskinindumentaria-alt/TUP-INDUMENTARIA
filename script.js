@@ -52,7 +52,17 @@ const PRODUCTS=[
         image:"img/remera6.png",
         desc:"Remera de algodón premium con diseño Fin Berserk.",
         badge:"NUEVO"
+    },
+        {
+        id:7,
+        name:"Dragon Ball Z Club Fight",
+        category:"remeras",
+        price:18000,
+        image:"img/remera4.PNG",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
     }
+   
 ];
 
 let cart=JSON.parse(localStorage.getItem("tupaCart")||"[]");
@@ -110,11 +120,11 @@ function renderProducts(list = PRODUCTS) {
         </article>
     `).join("");
 
-    if (productosVisibles >= list.length) {
-        $("#verMas").style.display = "none";
-    } else {
-        $("#verMas").style.display = "block";
-    }
+   if (list.length > productosVisibles) {
+    $("#verMas").style.display = "block";
+} else {
+    $("#verMas").style.display = "none";
+}
 }
 
 $("#verMas").onclick = () => {
