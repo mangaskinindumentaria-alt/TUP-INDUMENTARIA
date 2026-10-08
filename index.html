@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TUPÁ - Tienda de ropa personalizada. Remeras, buzos y diseños únicos.">
+  <title>TUPÁ | Ropa Personalizada</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <a href="#inicio" class="logo">TUPÁ<span>®</span></a>
+  <nav class="nav" id="nav">
+    <a href="#inicio">Inicio</a><a href="#tienda">Tienda</a><a href="#personaliza">Personalizá</a>
+    <a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a>
+  </nav>
+  <div class="header-actions">
+    <button class="icon-btn" id="searchToggle" aria-label="Buscar">⌕</button>
+    <button class="cart-btn" id="cartOpen" aria-label="Carrito">🛒 <b id="cartCount">0</b></button>
+    <button class="menu-btn" id="menuBtn">☰</button>
+  </div>
+</header>
+
+<div class="search-bar" id="searchBar">
+  <input id="searchInput" type="search" placeholder="Buscar remeras, buzos, oversize...">
+</div>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-copy">
+    <p class="eyebrow">TUPÁ / ROPA PERSONALIZADA</p>
+    <h1>VESTÍ<br><span>TU IDEA.</span></h1>
+    <p>Prendas pensadas para vos. Elegí un diseño, personalizalo o traé tu propia idea.</p>
+    <div class="actions"><a class="btn primary" href="#tienda">VER TIENDA</a><a class="btn ghost" href="#personaliza">CREAR MI PRENDA</a></div>
+    <div class="hero-features"><span>✓ DISEÑOS ÚNICOS</span><span>✓ CALIDAD PREMIUM</span><span>✓ HECHO PARA VOS</span></div>
+  </div>
+  <div class="hero-art"><div class="shirt-art"><span>TUPÁ</span></div><div class="floating">TU<br>ESTILO.</div></div>
+</section>
+
+<section class="announcement"><span>ENVÍOS / RETIROS</span><span>•</span><span>PERSONALIZÁ TU PRENDA</span><span>•</span><span>CONSULTÁ POR WHATSAPP</span></section>
+
+<section class="shop section" id="tienda">
+  <div class="section-head">
+    <div><p class="tag">01 / TIENDA</p><h2>ENCONTRÁ TU <span>PRENDA.</span></h2></div>
+    <p class="muted">Elegí una categoría y agregá tus favoritos al carrito.</p>
+  </div>
+  <div class="shop-tools">
+    <div class="categories" id="categories">
+      <button class="active" data-category="todos">Todos</button>
+      <button data-category="remeras">Remeras</button>
+      <button data-category="buzos">Buzos</button>
+      <button data-category="oversize">Oversize</button>
+    </div>
+    <select id="sort">
+      <option value="featured">Ordenar: destacados</option><option value="low">Precio menor</option><option value="high">Precio mayor</option>
+    </select>
+  </div>
+  <div class="products" id="products"></div>
+</section>
+
+<section class="banner section" id="personaliza">
+  <div><p class="tag dark">02 / PERSONALIZÁ</p><h2>¿TENÉS UNA<br><span>IDEA?</span></h2><p>Subí mentalmente el diseño que imaginás: nosotros te ayudamos a convertirlo en una prenda.</p><a class="btn dark-btn" href="#contacto">QUIERO PERSONALIZAR</a></div>
+  <div class="steps">
+    <div><b>01</b><h3>ELEGÍ</h3><p>Prenda, talle y color.</p></div>
+    <div><b>02</b><h3>DISEÑÁ</h3><p>Mandanos tu logo, imagen o idea.</p></div>
+    <div><b>03</b><h3>APROBÁ</h3><p>Coordinamos el diseño final.</p></div>
+    <div><b>04</b><h3>RECIBÍ</h3><p>Preparamos tu pedido.</p></div>
+  </div>
+</section>
+
+<section class="about section" id="nosotros">
+  <div><p class="tag">03 / TUPÁ</p><h2>ROPA CON<br><span>IDENTIDAD.</span></h2></div>
+  <div class="about-copy"><p>TUPÁ nace para que una prenda pueda ser algo más que una prenda. Diseños urbanos, personalizados y hechos para expresar lo que te representa.</p><div class="stats"><div><strong>100%</strong><span>PERSONALIZABLE</span></div><div><strong>01</strong><span>IDEA A LA VEZ</span></div><div><strong>∞</strong><span>POSIBILIDADES</span></div></div></div>
+</section>
+
+<section class="contact section" id="contacto">
+  <div><p class="tag">04 / CONTACTO</p><h2>HABLEMOS DE<br><span>TU IDEA.</span></h2><p class="muted">Completá el formulario y se abrirá WhatsApp con tu consulta lista para enviar.</p></div>
+  <form id="contactForm">
+    <input id="name" required placeholder="Nombre">
+    <input id="phone" required placeholder="Teléfono">
+    <select id="contactProduct" required><option value="">¿Qué te interesa?</option><option>Remera</option><option>Remera Oversize</option><option>Buzo</option><option>Diseño personalizado</option><option>Otro</option></select>
+    <textarea id="message" required rows="5" placeholder="Contanos tu idea, cantidad, talle, color, etc."></textarea>
+    <button class="btn primary" type="submit">ENVIAR POR WHATSAPP →</button>
+  </form>
+</section>
+</main>
+
+<footer><div class="footer-logo">TUPÁ<span>®</span></div><p>ROPA PERSONALIZADA · TU ESTILO · TU IDEA</p><div><a href="#inicio">Inicio</a><a href="#tienda">Tienda</a><a href="#contacto">Contacto</a></div><small>© 2026 TUPÁ. Todos los derechos reservados.</small></footer>
+
+<div class="modal" id="productModal">
+  <div class="modal-card"><button class="close" data-close>×</button><div class="modal-grid"><div class="modal-image" id="modalImage"></div><div class="modal-info"><p class="tag">TUPÁ / PRODUCTO</p><h2 id="modalName"></h2><p class="price" id="modalPrice"></p><p id="modalDesc" class="muted"></p><label>Talle<select id="size"><option>S</option><option>M</option><option>L</option><option>XL</option><option>XXL</option></select></label><label>Color<select id="color"><option>Negro</option><option>Blanco</option><option>Gris</option><option>Verde</option></select></label><label>Cantidad<div class="quantity"><button id="minus">−</button><input id="qty" value="1" readonly><button id="plus">+</button></div></label><button class="btn primary full" id="addModal">AGREGAR AL CARRITO</button></div></div></div>
+</div>
+
+<aside class="cart" id="cart">
+  <div class="cart-head"><h2>MI CARRITO</h2><button class="close" id="cartClose">×</button></div>
+  <div id="cartItems" class="cart-items"></div>
+  <div class="cart-bottom"><div><span>Subtotal</span><strong id="subtotal">$0</strong></div><p>El envío y/o retiro se coordina por WhatsApp.</p><button class="btn primary full" id="checkout">PEDIR POR WHATSAPP →</button></div>
+</aside>
+<div class="overlay" id="overlay"></div>
+<a class="wa" id="waButton" href="#" target="_blank">WA</a>
+<div class="toast" id="toast">Agregado al carrito ✓</div>
+
+<script src="script.js"></script>
+</body>
+</html>
