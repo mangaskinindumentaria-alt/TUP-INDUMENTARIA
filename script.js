@@ -61,7 +61,57 @@ const PRODUCTS=[
         image:"img/remera4.PNG",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
-    }
+    },
+
+    {
+        id:8,
+        name:"Dragon Ball Z Detras de Camaras",
+        category:"remeras",
+        price:18000,
+        image:"img/remera5.PNG",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },
+
+     {
+        id:9,
+        name:"Hoy la quedo Satoru Goyo Gym",
+        category:"remeras",
+        price:18000,
+        image:"img/remera7.PNG",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },
+
+     {
+        id:10,
+        name:"Goku Chill",
+        category:"remeras",
+        price:18000,
+        image:"img/remera9.PNG",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },
+
+     {
+        id:11,
+        name:"Saiyan en recuperación",
+        category:"remeras",
+        price:18000,
+        image:"img/remera10.PNG",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },
+   
+     {
+        id:12,
+        name:"Saiyan en recuperación 2",
+        category:"remeras",
+        price:18000,
+        image:"img/remera11.PNG",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },
    
 ];
 
