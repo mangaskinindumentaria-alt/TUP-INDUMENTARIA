@@ -1,10 +1,58 @@
 const PRODUCTS=[
-{id:1,name:"Remera Clásica",category:"remeras",price:18000,color:"#eee",desc:"Remera de algodón premium, ideal para estampas personalizadas.",badge:"MÁS VENDIDA"},
-{id:2,name:"Remera Oversize",category:"oversize",price:24000,color:"#202020",desc:"Calce oversize urbano para un look amplio y cómodo.",badge:"TREND"},
-{id:3,name:"Buzo Premium",category:"buzos",price:39000,color:"#555",desc:"Buzo de abrigo con excelente base para personalización.",badge:"PREMIUM"},
-{id:4,name:"Oversize TUPÁ",category:"oversize",price:26000,color:"#d8ff00",desc:"Oversize de estilo protagonista para diseños grandes.",badge:"NUEVO"},
-{id:5,name:"Remera Blanca",category:"remeras",price:17500,color:"#f5f5f5",desc:"Base blanca versátil para todo tipo de diseños.",badge:"CLÁSICA"},
-{id:6,name:"Buzo Negro",category:"buzos",price:42000,color:"#161616",desc:"Buzo negro de estilo urbano para tus diseños favoritos.",badge:"PREMIUM"}
+    {
+        id:1,
+        name:"Al fallo O me fallo.png",
+        category:"remeras",
+        price:18000,
+        image:"img/remera2.png",
+        desc:"Remera de algodón premium con diseño Al Fallo para mujer.",
+        badge:"NUEVO"
+    },
+    {
+        id:2,
+        name:"Charly y Alicia.png",
+        category:"remeras",
+        price:18000,
+        image:"img/remera3.png",
+        desc:"Remera de algodón premium con diseño Charly Paz de las Maravillas.",
+        badge:"NUEVO"
+    },
+    {
+        id:3,
+        name:"Lion Chill",
+        category:"remeras",
+        price:18000,
+        image:"img/remera8.png",
+        desc:"Remera de algodón premium con diseño Lion Chill.",
+        badge:"NUEVO"
+    },
+    {
+        id:4,
+        name:"Luffy Chill",
+        category:"remeras",
+        price:18000,
+        image:"img/Luffy chill.png",
+        desc:"Remera de algodón premium con diseño Luffy Chill.",
+        badge:"NUEVO"
+    },
+    {
+        id:5,
+        name:"Kratos God of Paz",
+        category:"remeras",
+        price:18000,
+        image:"img/Kratos god of paz negra.png",
+        desc:"Remera de algodón premium con diseño Kratos God of Paz.",
+        badge:"NUEVO"
+    },
+    {
+        id:6,
+        name:"Hora de Berserk.png",
+        category:"remeras",
+        price:18000,
+        image:"img/remera6.png",
+        desc:"Remera de algodón premium con diseño Fin Berserk.",
+        badge:"NUEVO"
+    }
 ];
 
 let cart=JSON.parse(localStorage.getItem("tupaCart")||"[]");
@@ -13,14 +61,84 @@ let current=null;
 const $=s=>document.querySelector(s);
 const money=n=>new Intl.NumberFormat("es-AR",{style:"currency",currency:"ARS",maximumFractionDigits:0}).format(n);
 
-function renderProducts(list=PRODUCTS){
- const box=$("#products");
- if(!list.length){box.innerHTML='<p class="muted">No encontramos productos con esa búsqueda.</p>';return}
- box.innerHTML=list.map(p=>`<article class="product"><div class="product-visual"><span class="product-label">${p.badge}</span><div class="mock-shirt" style="--shirt:${p.color}">TUPÁ</div></div><div class="product-info"><h3>${p.name}</h3><p>${p.desc}</p><div class="product-row"><strong>${money(p.price)}</strong><button class="quick" onclick="openProduct(${p.id})">VER PRODUCTO</button></div></div></article>`).join("");
+let productosVisibles = 6;
+let listaActual = PRODUCTS;
+
+function renderProducts(list = PRODUCTS) {
+    listaActual = list;
+
+    const box = $("#products");
+
+    if (!list.length) {
+        box.innerHTML = '<p class="muted">No encontramos productos con esa búsqueda.</p>';
+        $("#verMas").style.display = "none";
+        return;
+    }
+
+    const productosAMostrar = list.slice(0, productosVisibles);
+
+    box.innerHTML = productosAMostrar.map(p => `
+        <article class="product">
+
+            <div class="product-visual">
+                <span class="product-label">${p.badge}</span>
+
+                <img 
+                    src="${p.image}" 
+                    alt="${p.name}" 
+                    class="product-image"
+                >
+            </div>
+
+            <div class="product-info">
+                <h3>${p.name}</h3>
+
+                <p>${p.desc}</p>
+
+                <div class="product-row">
+                    <strong>${money(p.price)}</strong>
+
+                    <button 
+                        class="quick" 
+                        onclick="openProduct(${p.id})"
+                    >
+                        VER PRODUCTO
+                    </button>
+                </div>
+            </div>
+
+        </article>
+    `).join("");
+
+    if (productosVisibles >= list.length) {
+        $("#verMas").style.display = "none";
+    } else {
+        $("#verMas").style.display = "block";
+    }
 }
+
+$("#verMas").onclick = () => {
+    productosVisibles += 6;
+    renderProducts(listaActual);
+};
+
 function openProduct(id){
- current=PRODUCTS.find(p=>p.id===id); $("#modalName").textContent=current.name;$("#modalPrice").textContent=money(current.price);$("#modalDesc").textContent=current.desc;
- $("#modalImage").innerHTML=`<div class="mock-shirt" style="--shirt:${current.color}">TUPÁ</div>`;$("#qty").value=1;$("#productModal").classList.add("open");
+    current=PRODUCTS.find(p=>p.id===id);
+
+    $("#modalName").textContent=current.name;
+    $("#modalPrice").textContent=money(current.price);
+    $("#modalDesc").textContent=current.desc;
+
+    $("#modalImage").innerHTML=`
+        <img 
+            src="${current.image}" 
+            alt="${current.name}" 
+            class="modal-product-image"
+        >
+    `;
+
+    $("#qty").value=1;
+    $("#productModal").classList.add("open");
 }
 function addToCart(p,qty=1){
  const size=$("#size").value,color=$("#color").value;

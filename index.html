@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="TUPÁ - Tienda de ropa personalizada. Remeras, buzos y diseños únicos.">
-  <title>TUPÁ | Indumentaria Personalizada</title>
+  <title>TUPÁ | INDUMENTARIA Personalizada</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="header">
-  <a href="#inicio" class="logo"><img src="img/logonegro.jpg.png" alt=""><span>®</span></a>
+  <a href="#inicio" class="logo"><img src="img/logonegro.jpg.png" alt=""><span></span></a>
+    
   <nav class="nav" id="nav">
     <a href="#inicio">Inicio</a><a href="#tienda">Tienda</a><a href="#personaliza">Personalizá</a>
     <a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a>
@@ -31,7 +34,7 @@
 <main>
 <section class="hero" id="inicio">
   <div class="hero-copy">
-    <p class="eyebrow">TUPÁ / ROPA PERSONALIZADA</p>
+    <p class="eyebrow">TUPÁ / TÚ ROPA PERSONALIZADA</p>
     <h1>VESTÍ<br><span>TU IDEA.</span></h1>
     <p>Prendas pensadas para vos. Elegí un diseño, personalizalo o traé tu propia idea.</p>
     <div class="actions"><a class="btn primary" href="#tienda">VER TIENDA</a><a class="btn ghost" href="#personaliza">CREAR MI PRENDA</a></div>
@@ -58,7 +61,14 @@
       <option value="featured">Ordenar: destacados</option><option value="low">Precio menor</option><option value="high">Precio mayor</option>
     </select>
   </div>
-  <div class="products" id="products"></div>
+  <div class="ver-mas-container">
+    <button id="verMas" class="btn primary">VER MÁS</button>
+</div>
+<div id="products" class="products"></div>
+
+<div class="ver-mas-container">
+    <button id="verMas" class="btn primary">VER MÁS</button>
+</div>
 </section>
 
 <section class="banner section" id="personaliza">
@@ -100,7 +110,9 @@
   <div class="cart-bottom"><div><span>Subtotal</span><strong id="subtotal">$0</strong></div><p>El envío y/o retiro se coordina por WhatsApp.</p><button class="btn primary full" id="checkout">PEDIR POR WHATSAPP →</button></div>
 </aside>
 <div class="overlay" id="overlay"></div>
-<a class="wa" id="waButton" href="#" target="_blank">WA</a>
+<a class="wa" id="waButton" href="#" target="_blank" aria-label="WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
 <div class="toast" id="toast">Agregado al carrito ✓</div>
 
 <script src="script.js"></script>
