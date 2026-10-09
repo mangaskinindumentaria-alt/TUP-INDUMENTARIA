@@ -112,7 +112,457 @@ const PRODUCTS=[
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
     },
-   
+
+     {
+        id:13,
+        name:"BAKI Entrenamiento Mantis",
+        category:"remeras",
+        price:18000,
+        image:"img/remera12.jpeg",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },
+
+    {
+        id:14,
+        name:"Goku Moto de guerra",
+        category:"remeras",
+        price:18000,
+        image:"img/remera13.PNG",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },    
+
+    {
+        id:15,
+        name:"Goku Moto de guerra 2",
+        category:"remeras",
+        price:18000,
+        image:"img/remera14.PNG",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },    
+
+    {
+        id:16,
+        name:"Goku Gameboy Advance",
+        category:"remeras",
+        price:18000,
+        image:"img/remera15.PNG",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },    
+
+    {
+        id:17,
+        name:"Gohan Gameboy Advance",
+        category:"remeras",
+        price:18000,
+        image:"img/remera16.PNG",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },    
+
+    {
+        id:18,
+        name:"Zoro Gameboy Advance",
+        category:"remeras",
+        price:18000,
+        image:"img/remera17.PNG",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },    
+
+    {
+        id:19,
+        name:"Game Cube Zone",
+        category:"remeras",
+        price:18000,
+        image:"img/remera18.jpeg",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },  
+
+    {
+        id:20,
+        name:"Contra Menu Snes",
+        category:"remeras",
+        price:18000,
+        image:"img/remera19.jpeg",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },  
+
+    {
+        id:21,
+        name:"Luffy GameBoy Advance",
+        category:"remeras",
+        price:18000,
+        image:"img/remera20.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },  
+
+    {
+        id:22,
+        name:"El Diegote Y El Goat Messi",
+        category:"remeras",
+        price:18000,
+        image:"img/remera21.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },  
+
+    {
+        id:23,
+        name:"El perdon aun vive en mí",
+        category:"remeras",
+        price:18000,
+        image:"img/remera23.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },  
+
+    {
+        id:24,
+        name:"El perdon aun vive en mí 2",
+        category:"remeras",
+        price:18000,
+        image:"img/remera24.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },  
+    
+     {
+        id:25,
+        name:"¿El ultimo tiro?",
+        category:"remeras",
+        price:18000,
+        image:"img/remera25.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },  
+
+    {
+        id:26,
+        name:"Hora de aventura Los Guardianes del sol",
+        category:"remeras",
+        price:18000,
+        image:"img/remera26.jpeg",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },  
+
+    {
+        id:27,
+        name:"Sorry Bro",
+        category:"remeras",
+        price:18000,
+        image:"img/remera27.jpeg",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },  
+    {
+        id:28,
+        name:"Gato Nosferatu",
+        category:"remeras",
+        price:18000,
+        image:"img/remera28.jpeg",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },     
+
+    {
+        id:29,
+        name:"Gato Ramen Mochi",
+        category:"remeras",
+        price:18000,
+        image:"img/remera29.jpeg",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },     
+
+     {
+        id:30,
+        name:"Goku Bicibandido",
+        category:"remeras",
+        price:18000,
+        image:"img/remera30.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },  
+    
+    
+     {
+        id:31,
+        name:"Goku Bicibandido 2",
+        category:"remeras",
+        price:18000,
+        image:"img/remera31.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },    
+    
+    {
+        id:32,
+        name:"Gust Berserk PlayStation",
+        category:"remeras",
+        price:18000,
+        image:"img/remera32.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },  
+    
+    {
+        id:33,
+        name:"Si sabes ingles La Entendes",
+        category:"remeras",
+        price:18000,
+        image:"img/remera33.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+    {
+        id:34,
+        name:"Si sabes ingles La Entendes 2",
+        category:"remeras",
+        price:18000,
+        image:"img/remera34.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+    {
+        id:35,
+        name:"Kakashi Obito PlayStation",
+        category:"remeras",
+        price:18000,
+        image:"img/remera35.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+    {
+        id:36,
+        name:"Killua HXH",
+        category:"remeras",
+        price:18000,
+        image:"img/remera36.jpeg",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+    {
+        id:37,
+        name:"La ventana al Alma",
+        category:"remeras",
+        price:18000,
+        image:"img/remera37.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+    {
+        id:38,
+        name:"Los peques",
+        category:"remeras",
+        price:18000,
+        image:"img/remera38.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+    {
+        id:39,
+        name:"Mix Matero",
+        category:"remeras",
+        price:18000,
+        image:"img/remera39.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+    {
+        id:40,
+        name:"La Fittnelisa",
+        category:"remeras",
+        price:18000,
+        image:"img/remera40.jpeg",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+    {
+        id:41,
+        name:"La ventana al Alma 2",
+        category:"remeras",
+        price:18000,
+        image:"img/remera41.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+    {
+        id:42,
+        name:"Luffy Gear 5 Black",
+        category:"remeras",
+        price:18000,
+        image:"img/remera42.jpeg",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+    {
+        id:43,
+        name:"Perdon por Romperme",
+        category:"remeras",
+        price:18000,
+        image:"img/remera43.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+
+    {
+        id:44,
+        name:"Perdon por Romperme 2",
+        category:"remeras",
+        price:18000,
+        image:"img/remera45.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+    {
+        id:45,
+        name:"Picollo PlayStation",
+        category:"remeras",
+        price:18000,
+        image:"img/remera47.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },
+    
+     {
+        id:46,
+        name:"El Pity loco",
+        category:"remeras",
+        price:18000,
+        image:"img/remera48.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+    {
+        id:47,
+        name:"Otra del Pity porque si",
+        category:"remeras",
+        price:18000,
+        image:"img/remera49.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+     {
+        id:48,
+        name:"Otra del Pity porque si",
+        category:"remeras",
+        price:18000,
+        image:"img/remera49.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+     {
+        id:49,
+        name:"Sanji Gold",
+        category:"remeras",
+        price:18000,
+        image:"img/remera22.jpeg",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+     {
+        id:50,
+        name:"Si quiero, me toco el Alma",
+        category:"remeras",
+        price:18000,
+        image:"img/remera50.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+      {
+        id:51,
+        name:"Si quiero, me toco el Alma 2",
+        category:"remeras",
+        price:18000,
+        image:"img/remera51.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+    {
+        id:52,
+        name:"Super Mario Bros Snes",
+        category:"remeras",
+        price:18000,
+        image:"img/remera52.jpeg",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+    {
+        id:53,
+        name:"Super Poderosos",
+        category:"remeras",
+        price:18000,
+        image:"img/remera53.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+    {
+        id:54,
+        name:"Super Poderosos 2",
+        category:"remeras",
+        price:18000,
+        image:"img/remera54.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+    {
+        id:55,
+        name:"Tortugas Ninjas Menu Snes",
+        category:"remeras",
+        price:18000,
+        image:"img/remera55.jpeg",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+    {
+        id:56,
+        name:"Charly siendo Charly",
+        category:"remeras",
+        price:18000,
+        image:"img/remera56.jpeg",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
+
+    {
+        id:57,
+        name:"En la que andamos todos/as",
+        category:"remeras",
+        price:18000,
+        image:"img/remera58.png",
+        desc:"Descripción de la nueva remera.",
+        badge:"NUEVO"
+    },   
 ];
 
 let cart=JSON.parse(localStorage.getItem("tupaCart")||"[]");
