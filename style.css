@@ -61,14 +61,12 @@
     object-fit: contain;
     z-index: 2;
 }
-
-/* WHATSAPP FLOTANTE - ESQUINA INFERIOR IZQUIERDA */
-a[href*="wa.me"].whatsapp-float,
-a[href*="wa.me"].whatsapp-button,
-#whatsapp {
+/* WHATSAPP: ESQUINA INFERIOR IZQUIERDA */
+#waButton.wa {
     position: fixed !important;
     left: 22px !important;
     right: auto !important;
     bottom: 25px !important;
+    top: auto !important;
     z-index: 999999 !important;
 }
