@@ -61,3 +61,13 @@
     object-fit: contain;
     z-index: 2;
 }
+
+/* Botón flotante de WhatsApp */
+.whatsapp-float,
+.whatsapp-button,
+#whatsapp {
+position: fixed;
+right: 20px;
+bottom: 90px;
+z-index: 99999;
+}
