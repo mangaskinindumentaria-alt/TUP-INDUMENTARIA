@@ -62,12 +62,13 @@
     z-index: 2;
 }
 
-/* CORREGIR POSICIÓN DEL BOTÓN DE WHATSAPP */
+/* WHATSAPP FLOTANTE - ESQUINA INFERIOR IZQUIERDA */
 a[href*="wa.me"].whatsapp-float,
 a[href*="wa.me"].whatsapp-button,
 #whatsapp {
     position: fixed !important;
-    right: 22px !important;
-    bottom: 140px !important;
+    left: 22px !important;
+    right: auto !important;
+    bottom: 25px !important;
     z-index: 999999 !important;
 }
