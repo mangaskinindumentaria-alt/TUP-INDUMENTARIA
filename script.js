@@ -3,7 +3,7 @@ const PRODUCTS=[
         id:1,
         name:"Al fallo O me fallo.png",
         category:"remeras",
-        price:18000,
+        price:23999,
         image:"img/remera2.png",
         desc:"Remera de algodón premium con diseño Al Fallo para mujer.",
         badge:"NUEVO"
@@ -12,7 +12,7 @@ const PRODUCTS=[
         id:2,
         name:"Charly y Alicia.png",
         category:"remeras",
-        price:18000,
+        price:23999,
         image:"img/remera3.png",
         desc:"Remera de algodón premium con diseño Charly Paz de las Maravillas.",
         badge:"NUEVO"
@@ -21,7 +21,7 @@ const PRODUCTS=[
         id:3,
         name:"Lion Chill",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/remera8.png",
         desc:"Remera de algodón premium con diseño Lion Chill.",
         badge:"NUEVO"
@@ -30,8 +30,8 @@ const PRODUCTS=[
         id:4,
         name:"Luffy Chill",
         category:"remeras",
-        price:18000,
-        image:"img/Luffy relajado.png",
+        price:25999,
+        image:"img/Luffy chill.png",
         desc:"Remera de algodón premium con diseño Luffy Chill.",
         badge:"NUEVO"
     },
@@ -39,8 +39,8 @@ const PRODUCTS=[
         id:5,
         name:"Kratos God of Paz",
         category:"remeras",
-        price:18000,
-        image:"img/Kratos, dios de la paz negra.png",
+        price:25999,
+        image:"img/Kratos dios de la paz negra.png",
         desc:"Remera de algodón premium con diseño Kratos God of Paz.",
         badge:"NUEVO"
     },
@@ -48,7 +48,7 @@ const PRODUCTS=[
         id:6,
         name:"Hora de Berserk.png",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/remera6.png",
         desc:"Remera de algodón premium con diseño Fin Berserk.",
         badge:"NUEVO"
@@ -57,7 +57,7 @@ const PRODUCTS=[
         id:7,
         name:"Dragon Ball Z Club Fight",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/remera4.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -67,7 +67,7 @@ const PRODUCTS=[
         id:8,
         name:"Dragon Ball Z Detras de Camaras",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/remera5.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -77,7 +77,7 @@ const PRODUCTS=[
         id:9,
         name:"Hoy la quedo Satoru Goyo Gym",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/remera7.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -87,7 +87,7 @@ const PRODUCTS=[
         id:10,
         name:"Goku Chill",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/remera9.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -97,7 +97,7 @@ const PRODUCTS=[
         id:11,
         name:"Saiyan en recuperación",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/remera10.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -107,7 +107,7 @@ const PRODUCTS=[
         id:12,
         name:"Saiyan en recuperación 2",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/remera11.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -117,7 +117,7 @@ const PRODUCTS=[
         id:13,
         name:"BAKI Entrenamiento Mantis",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA12.jpeg",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -127,7 +127,7 @@ const PRODUCTS=[
         id:14,
         name:"Goku Moto de guerra",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA13.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -137,7 +137,7 @@ const PRODUCTS=[
         id:15,
         name:"Goku Moto de guerra 2",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA14.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -147,7 +147,7 @@ const PRODUCTS=[
         id:16,
         name:"Goku Gameboy Advance",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA15.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -157,7 +157,7 @@ const PRODUCTS=[
         id:17,
         name:"Gohan Gameboy Advance",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA16.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -167,7 +167,7 @@ const PRODUCTS=[
         id:18,
         name:"Zoro Gameboy Advance",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA17.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -177,7 +177,7 @@ const PRODUCTS=[
         id:19,
         name:"Game Cube Zone",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA18.jpeg",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -187,7 +187,7 @@ const PRODUCTS=[
         id:20,
         name:"Contra Menu Snes",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA19.jpeg",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -197,7 +197,7 @@ const PRODUCTS=[
         id:21,
         name:"Luffy GameBoy Advance",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA20.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -207,7 +207,7 @@ const PRODUCTS=[
         id:22,
         name:"El Diegote Y El Goat Messi",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA21.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -217,7 +217,7 @@ const PRODUCTS=[
         id:23,
         name:"El perdon aun vive en mí",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA23.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -227,7 +227,7 @@ const PRODUCTS=[
         id:24,
         name:"El perdon aun vive en mí 2",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA24.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -237,7 +237,7 @@ const PRODUCTS=[
         id:25,
         name:"¿El ultimo tiro?",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA25.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -247,7 +247,7 @@ const PRODUCTS=[
         id:26,
         name:"Hora de aventura Los Guardianes del sol",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA26.jpeg",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -257,7 +257,7 @@ const PRODUCTS=[
         id:27,
         name:"Sorry Bro",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA27.jpeg",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -266,7 +266,7 @@ const PRODUCTS=[
         id:28,
         name:"Gato Nosferatu",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA28.jpeg",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -276,7 +276,7 @@ const PRODUCTS=[
         id:29,
         name:"Gato Ramen Mochi",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA29.jpeg",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -286,7 +286,7 @@ const PRODUCTS=[
         id:30,
         name:"Goku Bicibandido",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA30.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -297,7 +297,7 @@ const PRODUCTS=[
         id:31,
         name:"Goku Bicibandido 2",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA31.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -307,7 +307,7 @@ const PRODUCTS=[
         id:32,
         name:"Gust Berserk PlayStation",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA32.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -317,7 +317,7 @@ const PRODUCTS=[
         id:33,
         name:"Si sabes ingles La Entendes",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA33.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -327,7 +327,7 @@ const PRODUCTS=[
         id:34,
         name:"Si sabes ingles La Entendes 2",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA34.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -337,7 +337,7 @@ const PRODUCTS=[
         id:35,
         name:"Kakashi Obito PlayStation",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA35.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -347,7 +347,7 @@ const PRODUCTS=[
         id:36,
         name:"Killua HXH",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA36.jpeg",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -357,7 +357,7 @@ const PRODUCTS=[
         id:37,
         name:"La ventana al Alma",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA37.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -367,7 +367,7 @@ const PRODUCTS=[
         id:38,
         name:"Los peques",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA38.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -377,7 +377,7 @@ const PRODUCTS=[
         id:39,
         name:"Mix Matero",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA39.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -387,7 +387,7 @@ const PRODUCTS=[
         id:40,
         name:"La Fittnelisa",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA40.jpeg",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -397,7 +397,7 @@ const PRODUCTS=[
         id:41,
         name:"La ventana al Alma 2",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA41.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -407,7 +407,7 @@ const PRODUCTS=[
         id:42,
         name:"Luffy Gear 5 Black",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA42.jpeg",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -417,7 +417,7 @@ const PRODUCTS=[
         id:43,
         name:"Perdon por Romperme",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA43.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -428,7 +428,7 @@ const PRODUCTS=[
         id:44,
         name:"Perdon por Romperme 2",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA45.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -438,7 +438,7 @@ const PRODUCTS=[
         id:45,
         name:"Picollo PlayStation",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA47.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -448,7 +448,7 @@ const PRODUCTS=[
         id:46,
         name:"El Pity loco",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA48.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -458,7 +458,7 @@ const PRODUCTS=[
         id:47,
         name:"Otra del Pity porque si",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA49.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -468,7 +468,7 @@ const PRODUCTS=[
         id:48,
         name:"Otra del Pity porque si",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA49.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -478,7 +478,7 @@ const PRODUCTS=[
         id:49,
         name:"Sanji Gold",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/Remera22.jpeg",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -488,7 +488,7 @@ const PRODUCTS=[
         id:50,
         name:"Si quiero, me toco el Alma",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA50.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -498,7 +498,7 @@ const PRODUCTS=[
         id:51,
         name:"Si quiero, me toco el Alma 2",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA51.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -508,7 +508,7 @@ const PRODUCTS=[
         id:52,
         name:"Super Mario Bros Snes",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA52.jpeg",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -518,7 +518,7 @@ const PRODUCTS=[
         id:53,
         name:"Super Poderosos",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA53.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -528,7 +528,7 @@ const PRODUCTS=[
         id:54,
         name:"Super Poderosos 2",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA54.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -538,7 +538,7 @@ const PRODUCTS=[
         id:55,
         name:"Tortugas Ninjas Menu Snes",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA55.jpeg",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -548,7 +548,7 @@ const PRODUCTS=[
         id:56,
         name:"Charly siendo Charly",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA56.jpeg",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
@@ -558,7 +558,7 @@ const PRODUCTS=[
         id:57,
         name:"En la que andamos todos/as",
         category:"remeras",
-        price:18000,
+        price:25999,
         image:"img/REMERA58.png",
         desc:"Descripción de la nueva remera.",
         badge:"NUEVO"
