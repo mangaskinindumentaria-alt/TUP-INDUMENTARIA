@@ -70,3 +70,51 @@
     top: auto !important;
     z-index: 999999 !important;
 }
+
+/* EFECTO DE LATIDO Y AURA PARA WHATSAPP */
+#waButton.wa {
+    isolation: isolate;
+    animation: wa-latido 2s ease-in-out infinite;
+}
+
+/* Aura verde que se expande */
+#waButton.wa::before {
+    content: "";
+    position: absolute;
+    inset: -8px;
+    border: 2px solid rgba(37, 211, 102, 0.8);
+    border-radius: 50%;
+    z-index: -1;
+    pointer-events: none;
+    animation: wa-aura 2s ease-out infinite;
+}
+
+/* Latido del botón */
+@keyframes wa-latido {
+    0%, 100% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.35);
+    }
+    50% {
+        box-shadow: 0 0 0 9px rgba(37, 211, 102, 0);
+    }
+}
+
+/* Expansión de la aura */
+@keyframes wa-aura {
+    0% {
+        transform: scale(0.85);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1.55);
+        opacity: 0;
+    }
+}
+
+/* Respetar usuarios que prefieren menos movimiento */
+@media (prefers-reduced-motion: reduce) {
+    #waButton.wa,
+    #waButton.wa::before {
+        animation: none;
+    }
+}
