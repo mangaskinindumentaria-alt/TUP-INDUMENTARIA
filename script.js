@@ -40,7 +40,7 @@ const PRODUCTS=[
         name:"Kratos God of Paz",
         category:"remeras",
         price:25999,
-        image:"img/Kretos god of paz blanca.png",
+        image:"img/kratos god of paz negra.png",
         desc:"Remera de algodón premium con diseño Kratos God of Paz.",
         badge:"NUEVO"
     },
